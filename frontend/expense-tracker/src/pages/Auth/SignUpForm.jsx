@@ -69,7 +69,7 @@ const SignUpForm = () => {
       if (error.response && error.response.data.message) {
         setError(error.response.data.message);
       } else {
-        setError("Something went wrong. Please try again.");
+        setError("Server processing... Please wait, my backend is a bit slow but it works, after a few second try hit signup button again");
       }
     }
   };
